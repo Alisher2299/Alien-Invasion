@@ -22,3 +22,6 @@ def run_game():
         gf.update_screen(ai_settings, screen, ship, bullets)
 
 run_game()
+
+
+print("Hello ints your git thing")
