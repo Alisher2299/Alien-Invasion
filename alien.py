@@ -9,7 +9,7 @@ class Alien(Sprite):
         self.screen = screen
         self.ai_settings = ai_settings
 
-        #load the alien image and set its rect attribute
+        #load the alie image and set its rect attribute
         self.image = pygame.image.load('images/alien.bmp')
         self.rect = self.image.get_rect()
 
@@ -17,9 +17,9 @@ class Alien(Sprite):
         self.rect.x = self.rect.width
         self.rect.y = self.rect.height
 
-        #store the alien's exact position
+        #Store the alien's exact position
         self.x = float(self.rect.x)
 
     def blitme(self):
         #Draw the alien
-        self.screen.blit(self.image, self.rect);
+        self.screen.blit(self.image, self.rect)
